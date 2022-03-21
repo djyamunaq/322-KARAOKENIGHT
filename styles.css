@@ -1,0 +1,103 @@
+  body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, 3);
+    grid-template-areas: 
+    "title"
+    "description"
+    "form";
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 1000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(107, 86, 55, 0.6), rgba(107, 86, 55, 0.3)), url("./karaoke.jpeg") no-repeat center center fixed;
+    background-size:cover;
+    color: white;
+  }
+
+  #content-container {
+    width:fit-content;
+    background-color: rgb(196, 99, 82, 0.5);
+    padding: 10px 100px 10px 100px;
+    margin: 30px 0px 50px 0px;
+    border-radius: 5px;
+  }
+
+  #title {
+    grid-area: title;
+    margin: 10px 0px 20px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+
+  #description {
+    grid-area: description;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px 0px 50px 0px;
+  }
+
+  #survey-form {
+    grid-area: form;
+    display: grid;
+  }
+
+  #radio-buttons-container {
+    display: flex;
+    margin: 10px 0px 15px 0px;
+  }
+
+  #check-box-container{
+    display: grid;
+    gap: 10px;
+    margin: 10px 0px 15px 0px;
+  }
+
+  #name {
+    margin: 7px 0px 20px 0px;
+  }
+
+  #email {
+    margin: 7px 0px 20px 0px;
+  }
+
+  #number {
+    margin: 7px 0px 20px 0px;
+  }
+
+  #dropdown {
+    margin: 7px 0px 20px 0px;
+  }
+
+  #dropdown2 {
+    margin: 7px 0px 20px 0px;
+  }
+
+  #suggestions {
+    margin: 7px 0px 20px 0px;
+  }
+
+  #submit {
+    margin: 20px 0px 30px 0px;
+    font-size: 20px;
+    padding: 7px 0px 7px 0px;
+    color: white;
+    background-color: rgb(127, 172, 38);
+    border-radius: 5px;
+    border-style: none;
+  }
+
+  #footer {
+    font-size: 9px;
+    text-align: center;
+    margin: 0px 0px -2px 0px;
+  }
+
+  li {
+      margin: 5px;
+  }
+
